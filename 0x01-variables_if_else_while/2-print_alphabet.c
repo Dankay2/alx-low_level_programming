@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	int lowercase = 'a';
 
-	for (i = 0; i > 26; i++)
+	while (lowercase <= 'z')
 	{
-		putchar(alp[i]);
+		putchar(lowercase);
+		lowercase += 1;
 	}
 	putchar('\n');
 	return (0);
